@@ -1,0 +1,95 @@
+@import "../../styles/base.scss";
+
+.password_card {
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.50);
+  display: flex;
+  justify-content: space-between;
+
+  .password_desc {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    h2 {
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .password_subdesc {
+      display: flex;
+      position: relative;
+
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        b {
+          font-weight: 600;
+        }
+      }
+
+      p.password_email {
+        width: 50%;
+      }
+
+      p.password_category {
+        position: absolute;
+        left: 55%;
+      }
+    }
+  }
+
+  .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+
+  @media screen and (max-width: $medium) {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: stretch;
+
+    .password_desc {
+      .password_subdesc {
+        p.password_email {
+          width: 55%;
+        }
+
+        p.password_category {
+          left: 60%;
+        }
+      }
+    }
+
+    .buttons {
+      align-self: flex-end;
+    }
+  }
+
+  @media screen and (max-width: $small) {
+    .password_desc {
+      .password_subdesc {
+        flex-direction: column;
+        gap: 0.5rem;
+
+        p.password_email {
+          width: auto;
+        }
+
+        p.password_category {
+          position: relative;
+          left: auto;
+        }
+      }
+    }
+  }
+}

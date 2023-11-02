@@ -1,0 +1,46 @@
+{
+  "password": [
+    {
+      "id": 1,
+      "website_address": "phincon.com",
+      "email": "mail@phincon.com",
+      "password": "Bethebest123",
+      "category": "work"
+    },
+    {
+      "id": 2,
+      "website_address": "gmail.com",
+      "email": "daniel@gmail.com",
+      "password": "Hahaeded",
+      "category": "personal"
+    },
+    {
+      "id": 3,
+      "website_address": "yahoo.com",
+      "email": "mail@yahoo.com",
+      "password": "dsdssfdfc",
+      "category": "family"
+    },
+    {
+      "id": 4,
+      "website_address": "netfix.com",
+      "email": "halo@netflix.com",
+      "password": "sdsdsfs",
+      "category": "family"
+    },
+    {
+      "id": 5,
+      "website_address": "bing.com",
+      "email": "mail@bing.com",
+      "password": "Bethebest12",
+      "category": "personal"
+    },
+    {
+      "id": 6,
+      "website_address": "amazon.com",
+      "email": "daniel@amazon.com",
+      "password": "hohosds",
+      "category": "work"
+    }
+  ]
+}

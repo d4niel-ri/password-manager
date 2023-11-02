@@ -1,0 +1,14 @@
+.dialog {
+
+  .form_inputs {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    align-items: start;
+
+    .error_message {
+      margin-top: 1rem;
+      color: red;
+    }
+  }
+}

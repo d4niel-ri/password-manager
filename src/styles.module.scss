@@ -1,0 +1,61 @@
+@import "./styles/base.scss";
+
+// Reset
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+main {
+  width: 100vw;
+  min-height: 100vh;
+  height: fit-content;
+  position: relative;
+  background: #F0F7FF;
+  color: #000;
+
+  .content {
+    margin: 0 2rem;
+  
+    h1 {
+      padding: 1rem 0;
+      font-size: 36px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .subcontent {
+      width: 70%;
+      margin: auto;
+
+      header {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+  
+        h2 {
+          font-size: 24px;
+        }
+      }
+  
+      .form_control {
+        margin-top: 3rem;
+        width: 15rem;
+        max-width: 100%;
+      }
+  
+      .list_passwords {
+        margin: auto;
+        margin-top: 3rem;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 100%;
+      }
+    }
+  }
+}
